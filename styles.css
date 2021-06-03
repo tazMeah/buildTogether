@@ -20,11 +20,27 @@ ul {
 }
 div .special:last-of-type {
     width: 100%;
+    box-sizing: border-box;
 }
 
 p {
     border-left: 4px solid #69696a;
     padding-left: 10px;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 8px;
+}
+
+footer ul {
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row;
+
 }
 
 /* this media query is for desktop */
@@ -81,4 +97,8 @@ p {
         right: 0;
         bottom: 0;
     }
+
+   
 }
+
+
